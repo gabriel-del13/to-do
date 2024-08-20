@@ -17,6 +17,8 @@ background_label.place (x=0, y=0, relwidth = 1, relheight=1)
 window.mainloop()
 
 """
+
+# todo esto fue basicamente con chat gpt pero, nos podemos hacer una idea con esto
 import tkinter as tk  # Importamos Tkinter
 from PIL import Image, ImageTk  # importamos el pillow
 
@@ -98,7 +100,7 @@ def marcar_completada():
 
 
 # Cargar y configurar la imagen de fondo
-bg_image = Image.open(zero_two.jpg)
+bg_image = Image.open("zero_two.jpg")
 bg_image = bg_image.resize((400, 600), Image.Resampling.LANCZOS)
 bg_image = ImageTk.PhotoImage(bg_image)
 
