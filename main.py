@@ -1,7 +1,6 @@
-import tkinter as tk 
+import tkinter as tk
 
 window = tk.Tk()
-window.geometry("400x400")
+window.geometry("500x500")
 
 window.mainloop()
-
