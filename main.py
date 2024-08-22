@@ -10,6 +10,8 @@ root.config(bg="white")
 root.resizable(False, False)
 
 # Cargar y configurar la imagen de fondo
+root.iconbitmap('icon.ico')
+
 bg_image = Image.open("zero_two.jpg")
 bg_image = bg_image.resize((700, 400), Image.Resampling.LANCZOS)
 bg_image = ImageTk.PhotoImage(bg_image)
